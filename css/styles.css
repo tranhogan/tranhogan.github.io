@@ -52,25 +52,6 @@ header {
     top: 0;
   }
 
-header div {
-    margin: 0 auto;
-    height: 100vh;
-}
-
-header .heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-header .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .image {
     /* background-color: 1f2937; */
@@ -121,7 +102,7 @@ body {
 }
 
 
-footer div {
+/* footer div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,23 +111,23 @@ footer div {
     font-size: 14px;
     margin-top: 24px;
     height: 300px;
-}
+} */
 
 /* h3 {
     margin: 0 auto;
 } */
 
-footer li {
+footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    padding: 10px;
+    bottom: 0;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     footer {
         width: 70%;
 
     }
-}
+} */
